@@ -49,8 +49,6 @@ def powerballValidator():
 
     return ok
 
-# TODO: find a way to compare lists and integers
-
 
 print("The Lucky Numbers Are: ", powerballValidator())
 print("The Powerball Is: ", powerball())

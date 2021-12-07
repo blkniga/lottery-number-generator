@@ -22,9 +22,9 @@ To deactivate your environment and return to the "base" environment:
 conda deactivate
 ```
 
-For more information on how to install the Anaconda / Miniconda Distribution, please refer to this link below
+For more information on how to install the Anaconda / Miniconda Distribution, please refer to this link below:
 
-[Anaconda Distibution] (https://docs.anaconda.com/anaconda/install/)
+[Anaconda Distibution](https://docs.anaconda.com/anaconda/install/)
 
 ## **NB**
 

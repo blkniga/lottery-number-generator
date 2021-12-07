@@ -16,6 +16,16 @@ conda activate
 conda create env "name of your virtual environment"
 ```
 
+To deactivate your environment and return to the "base" environment:
+
+```python
+conda deactivate
+```
+
+For more information on how to install the Anaconda / Miniconda Distribution, please refer to this link below
+
+[Anaconda Distibution] (https://docs.anaconda.com/anaconda/install/)
+
 ## **NB**
 
 This repo will surely be updated in the next coming months when I get better with python and with web development. The plan is to have it available to everyone on the web. :smile: :v:

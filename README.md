@@ -26,6 +26,16 @@ For more information on how to install the Anaconda / Miniconda Distribution, pl
 
 [Anaconda Distibution](https://docs.anaconda.com/anaconda/install/)
 
+## _Execution_
+
+To execute the script just run:
+
+```python
+python "the name of the file / script"
+```
+
+This assumes you're running the script on your terminal and are not using any code editor or IDE.
+
 ## **NB**
 
 This repo will surely be updated in the next coming months when I get better with python and with web development. The plan is to have it available to everyone on the web. :smile: :v:

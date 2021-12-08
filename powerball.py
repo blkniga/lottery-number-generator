@@ -16,7 +16,7 @@ def powerball():
 
 
 def lottoryNumbers():
-    ''' a function for assigning random powerballs to the list & validates if the the ball is a one of onen'''
+    ''' a function for assigning random powerballs to the list & validates if the the ball is a one of one'''
 
     for number in range(0, 5):
         numbers[number] = randomPowerballs()

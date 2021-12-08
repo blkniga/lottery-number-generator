@@ -5,12 +5,12 @@ numbers = list(range(6))
 
 
 def randomLottoBalls():
-    ''' random lottory ball from 1-51 '''
-    return random.randint(1, 51)
+    ''' random lottory ball from 1-52 '''
+    return random.randint(1, 52)
 
 
 def lottoryNumbers():
-    ''' a function for assigning random powerballs to the list & validates if the the ball is a one of onen'''
+    ''' a function for assigning random powerballs to the list & validates if the the ball is a one of one'''
 
     for number in range(0, 6):
         numbers[number] = randomLottoBalls()

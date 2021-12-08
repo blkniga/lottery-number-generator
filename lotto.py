@@ -10,7 +10,7 @@ def randomLottoBalls():
 
 
 def lottoryNumbers():
-    ''' a function for assigning random powerballs to the list & validates if the the ball is a one of one'''
+    ''' a function for assigning random lottory balls to the list & validates if the lottory balls are one of one '''
 
     for number in range(0, 6):
         numbers[number] = randomLottoBalls()
@@ -18,8 +18,8 @@ def lottoryNumbers():
     return numbers
 
 
-def powerballValidator():
-    ''' this method validates if whether the powerball is a one of one '''
+def lottoryBallValidator():
+    ''' this method validates if whether the random lottory ball is a one of one '''
 
     ok = lottoryNumbers()
     index = 0
@@ -31,8 +31,12 @@ def powerballValidator():
 
             if x == y:
 
-                ok[index] = randomLottoBalls()
-                incrementStopper = incrementStopper + 1
+                # ok[index] = randomLottoBalls()
+                # incrementStopper = incrementStopper + 1
+
+                # the function must reloop until there are balls that are one of one (recursion at play, or am i wrong?)
+
+                lottoryBallValidator()
 
             else:
 
@@ -44,4 +48,4 @@ def powerballValidator():
     return ok
 
 
-print("The Lucky Numbers Are: ", powerballValidator())
+print("The Lucky Numbers Are: ", lottoryBallValidator())

@@ -1,7 +1,9 @@
 import random
 
+n = (int)(input("Please input the number of balls you want: "))
+
 # list to hold the 5 lottory numbers
-numbers = list(range(5))
+numbers = list(range(n))
 
 
 def randomPowerballs():
@@ -18,7 +20,7 @@ def powerball():
 def lottoryNumbers():
     ''' a function for assigning random powerballs to the list & validates if the the ball is a one of one'''
 
-    for number in range(0, 5):
+    for number in range(0, n):
         numbers[number] = randomPowerballs()
 
     return numbers
